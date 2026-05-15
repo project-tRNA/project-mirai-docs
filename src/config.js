@@ -4,7 +4,7 @@ let conf = module.exports = {
     run_build: true,
     use_ssh_clone: false,
     deploy: {
-        enable: true,
+        enable: false,
         GH_TOKEN: () => { return process.env.GH_TOKEN; },
         ignore_update_to_date: false,
         ignore_sha1_update_to_date: false,
